@@ -35,4 +35,4 @@ async def count(ctx):
     + "\nBots : " + str(total - len(ctx.guild.members)) + "/" + str(total), color=interactions.Color.from_rgb(255, 0, 0)))
 
 
-bot.start("MTAzODIwODQ4NzM0NTM2OTE0OQ.Gxw0Sm.XYo3fLHI4fRoexZfjAswf4afna1BBOEx9TEEOA")
+bot.start("{TOKEN}")
