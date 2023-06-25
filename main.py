@@ -1,4 +1,8 @@
+import os
 import interactions
+
+
+TOKEN = os.environ.get("TOKEN")
 
 bot = interactions.Client()
 
@@ -35,4 +39,4 @@ async def count(ctx):
     + "\nBots : " + str(total - len(ctx.guild.members)) + "/" + str(total), color=interactions.Color.from_rgb(255, 0, 0)))
 
 
-bot.start("{TOKEN}")
+bot.start(TOKEN)
